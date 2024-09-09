@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://www.sucorodias.com/$1 [R=301,L]
+
+Options -Indexes

@@ -1,0 +1,188 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+body{
+    background-image: url("../img/asanoha.png");
+}
+
+
+.bg-custom{
+    background-color: #e4e3ad;
+}
+
+/* #e4e3ad */
+
+nav li{
+    padding-right: 15px;
+}
+
+nav{
+    font-size: 18px;
+}
+
+.introduction{
+    margin-top: 40px;
+    padding: 40px;
+}
+.text-shadow{
+    text-shadow: 0px 0px 3px black;
+}
+
+.introduction h1{
+    font-size: 55px;
+}
+
+.introduction .dp{
+    box-shadow: 0px 0px 20px black;
+    padding-margin: 10px;
+}
+.introduction p{
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+.navbar{
+    box-shadow: 0px 1px 7px 0px black;
+}
+
+.services{
+    color: white;
+    background-color: #3a3a3a;
+    padding: 100px 10px 40px 10px; 
+    margin-top: 5px;
+/*     padding-top: 40px;
+    padding-bottom: 40px; */
+    margin-bottom: 10px;
+}
+
+.services p{
+    font-size: 18px;
+}
+
+.services img{
+    padding-top: 20px;
+    width: 160px;
+}
+
+.heading{
+    color:  #b5b5b5;
+    font-size: 45px;
+    text-shadow: 1px 1px 3px black;
+}
+
+
+.separator {
+    height: 5px;
+    width: 100px;
+    margin: auto;
+    background: #b5b5b5;
+    margin-bottom: 50px;
+}
+
+.testimonials{
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.testimonials img{
+    border-radius: 50%;
+}
+
+.testimonials .col-md{
+    padding: 10px;
+}
+
+.testimonials .col-md:hover{
+    box-shadow: 0px 0px 5px black;
+    background-color: ghostwhite;
+    cursor: hand;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.testimonials p{
+    padding-top: 15px;
+}
+.testimonials img{
+    box-shadow: 2px 2px 10px black;
+}
+
+.contact{
+    padding-bottom: 40px;
+    padding-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    
+    color: white;
+    /* padding-top: 40px; 
+    padding-bottom: 20px;  */
+    background-color: #5d5d5dd1;
+}
+
+.contact small{
+    color: white;
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.footer p{
+    font-size: 16px;
+}
+
+.contact input{
+    background-color: #5f5f5f;
+}
+
+.contact textarea{
+    background-color: #5f5f5f;
+}
+
+.contact .heading{
+    color: white;
+}
+
+.contact .social{
+    margin: 20px 0px;
+}
+
+.btn-primary {
+    color: #212529;
+    background-color: #e4e3ad;
+    border-color: #e4e3ad;
+}
+
+
+
+@media (min-width: 992px){
+    .introduction{
+        margin-top: 60px;
+        padding: 60px;
+    }
+    .introduction .dp{
+        transform: rotate(-3deg);
+        box-shadow: 0px 0px 20px black;
+    }
+    
+    .services {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+    .pitch {
+        padding: 0px 120px;
+    }
+    .contact{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
